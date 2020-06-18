@@ -35,4 +35,8 @@ public class Display {
         frame.pack(); // makes canvas perfectly visibile in frame
 
     }
+
+    public Canvas getCanvas(){
+        return this.canvas;
+    }
 }
